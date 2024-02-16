@@ -22,11 +22,9 @@ public class Bai9 {
                 System.out.println("Chuoi khong xac dinh!");
             }
         }
-        
         System.out.println("So ky tu thuong trong chuoi la: " +Normal);
         System.out.println("So ky tu hoa trong chuoi la: " +Caps);
         System.out.println("So ky tu so trong chuoi la: " +Numbers);
-        
         sc.close();
     }
 }
