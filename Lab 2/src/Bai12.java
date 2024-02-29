@@ -26,5 +26,7 @@ public class Bai12 {
             }
         }
         System.out.println("Gia tri lon nhat trong ma tran la: " +GTLN);
+
+        sc.close();
     }
 }
