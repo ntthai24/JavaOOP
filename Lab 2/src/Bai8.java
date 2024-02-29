@@ -12,12 +12,12 @@ public class Bai8 {
 
         int[] b = new int[a];
         for(int i = 0; i < a; i++) {
-            System.out.print("Phan tu thu " + (i+1) + " la :");
+            System.out.print("Phan tu thu " + (i+1) + " la: ");
             b[i] = sc.nextInt();
             Tong += b[i];
         }
         double TBC = Tong / a;
-        System.out.println("Trung binh cong cua " + a + "la :" + TBC );
+        System.out.println("Trung binh cong cua " + a + " la: " + TBC );
 
         sc.close();
     }
