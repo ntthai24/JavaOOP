@@ -17,6 +17,7 @@ public class Bai8 {
             Tong += b[i];
         }
         double TBC = Tong / a;
+        
         System.out.println("Trung binh cong cua " + a + " la: " + TBC );
 
         sc.close();
