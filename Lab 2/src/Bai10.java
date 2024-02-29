@@ -22,5 +22,7 @@ public class Bai10 {
             }
         }
         System.out.println("So lan xuat hien " + kiTu + " la: " +countText);
+
+        sc.close();
     }
 }
