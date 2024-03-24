@@ -1,4 +1,4 @@
-// 
+// Tạo class Student, có các phương thức Nhập Thông tin, Xuất Thông tin, Tính điểm tổng kết môn học. Sau đó tạo đối tượng từ class Student và chạy thực thi.
 
 import java.util.Scanner;
 
