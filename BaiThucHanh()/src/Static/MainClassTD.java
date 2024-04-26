@@ -1,6 +1,6 @@
 package Static;
 
-public class Main {
+public class MainClassTD {
     public static void main(String[] args) {
 
         ToaDo toaDo1 = new ToaDo();
