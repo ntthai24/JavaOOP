@@ -10,7 +10,8 @@ public class Linked {
 
         System.out.println("Vi du su dung phuong thuc addAll()");
         System.out.println("-----------------------------------");
-        LinkedList<String> listA = new LinkedList<String>();
+        LinkedList<String> listA = new LinkedList<String>();  //khởi tạo
+        //Thêm các phần tử của list vào list A
         listA.addAll(list);
         System.out.println("listA: ");
         showList(listA);
@@ -18,16 +19,16 @@ public class Linked {
         System.out.println("\nvi du su dung phuong thuc retainAll()");
         System.out.println("-----------------------------------");
 
-        LinkedList<String> listB = new LinkedList<String>();
+        LinkedList<String> listB = new LinkedList<String>(); //khởi tạo
         listB.add("Java");
-        
+        //Xóa những phần tử không thuộc listB ra khỏi listA
         listA.retainAll(listB);
         System.out.println("listA: ");
         showList(listA);
 
         System.out.println("\nvi du su dung phuong thuc removeAll()");
         System.out.println("-----------------------------------");
-        list.removeAll(listB);
+        list.removeAll(listB);  //Xóa những phần tử thuộc listB ra khỏi list
         System.out.println("list: ");
         showList(list);
     }
