@@ -14,7 +14,7 @@ public class HashAdd {
         hashSetInteger.add(2);
         hashSetInteger.add(8);
 
-        System.out.println("Cac phan tu trong hashSetInteger: ");
+        System.out.print("Cac phan tu trong hashSetInteger: ");
         System.out.println(hashSetInteger);
         System.out.print("Nhap cac phan tu can them: ");
         number = sc.nextInt();
