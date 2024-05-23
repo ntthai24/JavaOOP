@@ -19,7 +19,7 @@ public class TreeMap2 {
 
         treeMap.replace(2, 7.2d, 7.7d);
 
-        System.out.println("Cac phan tu co trong TreeMap sau khi thay the la: ");
+        System.out.println("Cac phan tu co trong treeMap sau khi thay the la: ");
         setTreeMap = treeMap.entrySet();
         System.out.println(setTreeMap);
     }
